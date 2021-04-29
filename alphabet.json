@@ -1,0 +1,210 @@
+{
+    "A": [
+      {
+        "alphabetLetter": "a"
+      },
+      {
+        "alphabetPoints": 1
+      }
+    ],
+    "B": [
+      {
+        "alphabetLetter": "b"
+      },
+      {
+        "alphabetPoints": 3
+      }
+    ],
+    "C": [
+      {
+        "alphabetLetter": "c"
+      },
+      {
+        "alphabetPoints": 1
+      }
+    ],
+    "D": [
+      {
+        "alphabetLetter": "d"
+      },
+      {
+        "alphabetPoints": 2
+      }
+    ],
+    "E": [
+      {
+        "alphabetLetter": "e"
+      },
+      {
+        "alphabetPoints": 1
+      }
+    ],
+    "F": [
+      {
+        "alphabetLetter": "f"
+      },
+      {
+        "alphabetPoints": 4
+      }
+    ],
+    "G": [
+      {
+        "alphabetLetter": "g"
+      },
+      {
+        "alphabetPoints": 3
+      }
+    ],
+    "H": [
+      {
+        "alphabetLetter": "h"
+      },
+      {
+        "alphabetPoints": 3
+      }
+    ],
+    "I": [
+      {
+        "alphabetLetter": "i"
+      },
+      {
+        "alphabetPoints": 1
+      }
+    ],
+    "J": [
+      {
+        "alphabetLetter": "j"
+      },
+      {
+        "alphabetPoints": 4
+      }
+    ],
+    "K": [
+      {
+        "alphabetLetter": "k"
+      },
+      {
+        "alphabetPoints": 3
+      }
+    ],
+    "L": [
+      {
+        "alphabetLetter": "l"
+      },
+      {
+        "alphabetPoints": 3
+      }
+    ],
+    "M": [
+      {
+        "alphabetLetter": "m"
+      },
+      {
+        "alphabetPoints": 3
+      }
+    ],
+    "N": [
+      {
+        "alphabetLetter": "n"
+      },
+      {
+        "alphabetPoints": 1
+      }
+    ],
+    "O": [
+      {
+        "alphabetLetter": "o"
+      },
+      {
+        "alphabetPoints": 1
+      }
+    ],
+    "P": [
+      {
+        "alphabetLetter": "p"
+      },
+      {
+        "alphabetPoints": 3
+      }
+    ],
+    "Q": [
+      {
+        "alphabetLetter": "q"
+      },
+      {
+        "alphabetPoints": 10
+      }
+    ],
+    "R": [
+      {
+        "alphabetLetter": "r"
+      },
+      {
+        "alphabetPoints": 2
+      }
+    ],
+    "S": [
+      {
+        "alphabetLetter": "s"
+      },
+      {
+        "alphabetPoints": 2
+      }
+    ],
+    "T": [
+      {
+        "alphabetLetter": "t"
+      },
+      {
+        "alphabetPoints": 2
+      }
+    ],
+    "U": [
+      {
+        "alphabetLetter": "u"
+      },
+      {
+        "alphabetPoints": 4
+      }
+    ],
+    "V": [
+      {
+        "alphabetLetter": "v"
+      },
+      {
+        "alphabetPoints": 4
+      }
+    ],
+    "W": [
+      {
+        "alphabetLetter": "w"
+      },
+      {
+        "alphabetPoints": 5
+      }
+    ],
+    "X": [
+      {
+        "alphabetLetter": "x"
+      },
+      {
+        "alphabetPoints": 8
+      }
+    ],
+    "Y": [
+      {
+        "alphabetLetter": "y"
+      },
+      {
+        "alphabetPoints": 8
+      }
+    ],
+    "Z": [
+      {
+        "alphabetLetter": "z"
+      },
+      {
+        "alphabetPoints": 4
+      }
+    ]
+  }
