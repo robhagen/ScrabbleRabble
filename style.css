@@ -1,0 +1,26 @@
+* {
+    margin: 0%;
+    padding: 0%
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  #div_textfield, #div_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    padding: 10px;
+    border: 0px solid black;
+  }
+
+  #button {
+      width: 100px;
+      height: 25px;
+  }
