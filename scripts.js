@@ -1,27 +1,16 @@
+import alphabet from './alphabet.js';
 let button = document.getElementById("button");
-let userEnteredWord = ["Entered word is empty"];
-let enteredWordSeparated = ["Word Separated is empty"];
 
-fetch('https://robhagen.github.io/ScrabbleRabble/alphabet.json')
-    .then(alphabetData => alphabetData.json())
-    .then(data => alphabetData = (data));
+scores = alphabet.js
+
+let word = document.getElementById("userInput").value;
+word = word.toLowerCase();
+
+let sum = 0;
+for (var i = 0; i < word.length; ++i) {
+    sum += scores[word.charAt(i)] || 0;
+}
 
 button.onclick = function() {
-    let userInput = document.getElementById("userInput").value;
-    userEnteredWord = (userInput);
-    enteredWordSeparated = userEnteredWord.split('');
-    document.getElementById("word_output").innerHTML = ("Your word is " + enteredWordSeparated);
-    for (alphabetData in enteredWordSeparated) {
-        console.log(enteredWordSeparated + " " + "zit er in")}
-    /*calculateWordScore();*/
+    alert(sum);
 };
-
-/*
-calculateWordScore = function() {
-    for (i = 0; i < enteredWordSeparated.length; i++) {
-            if (alphabetData[j].hasOwnProperty(enteredWordSeparated[j])) {
-                console.log(j);
-        }
-      } 
-};
-*/
