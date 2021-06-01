@@ -1,19 +1,41 @@
 <html> 
     <head>
         <meta charset="UTF-8">
-        <title>Dit is een webpagina</title>
+        <title>ScrabbleRabble - Calculate word scores for Scrabblegames</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="container">
-            <div id="div_textfield">
-                <input type="text" id="userInput">
+        <div id="page">
+
+            <div id="sidebar">
+
+                <div id="logo">
+                    <p1 class="logo_text">Scrabble</p1>
+                    <p1 class="logo_text">Rabble</p1>
+                    <p1 class="logo_text" id="undertext">A simple calculator for word scores in Scrabble</p1>
+                </div>
+
+                <div id="footer">
+                    <p1>Design and Coding by Rob</p1>
+                </div>
             </div>
-            <div id="div_button">
-                <button type="button" id="button">Click me!</button>
-            </div>
-            <div id="word_score_output">
-                Your word has not been entered yet!
+
+            <div id="hero">
+                <div id="div_textfield">
+                    <input type="text" id="userInput">
+                </div>
+
+                <div id="div_button">
+                    <button type="button" id="button">Bereken woordwaarde</button>
+                </div>
+
+                <div id="word_output">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div id="word_score_output">
+                    <p>You have yet to enter a word...</p>
+                </div>
             </div>
         </div>
         <script type="text/javascript" src="./scripts.js"></script> 

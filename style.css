@@ -1,26 +1,92 @@
 * {
     margin: 0%;
     padding: 0%
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-#container {
+@font-face {
+  font-family: Scrabbles;
+  src: url(Scrabbles.ttf);
+}
+
+@font-face {
+  font-family: Tilez;
+  src: url(Tilez.ttf);
+}
+
+#page {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+#sidebar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(25,84,14);
+  background: linear-gradient(149deg, rgb(22, 100, 8) 0%, rgba(68,130,23,1) 55%, rgba(132,232,41,1) 100%); 
+  border-right: 1px solid black;
+}
+
+#logo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 0.5em;
+  font-family: Tilez;
+  font-size: 3em;
+  text-align: right;
+  border: 0px solid black;
+}
+
+.logo_text {
+  margin-top: -0.35em;
+}
+
+#undertext {
+  font-size: 0.25em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#footer {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  font-size: 0.5em;
+}
+
+#hero {
     display: flex;
+    flex: 4;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
+    background: rgb(255, 254, 215);
   }
 
   #div_textfield, #div_button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80vw;
-    padding: 10px;
+    margin: 1em;
     border: 0px solid black;
   }
 
   #button {
-      width: 100px;
+      width: 150px;
       height: 25px;
+  }
+
+  #word_output {
+    font-family: Scrabbles;
+    font-size: 5em;
+  }
+
+  #word_score_output {
+    margin-top: 3em;
+    border: 0px solid black;
   }
